@@ -40,6 +40,18 @@ axios: This is a popular promise-based HTTP client for JavaScript. It allows you
 
 lodash: Lodash is a utility library that provides a wide range of functions for common JavaScript tasks like array manipulation, object manipulation, string manipulation, and more. It can help you write more concise, readable, and maintainable code by reducing the need to write repetitive utility functions yourself.
 
+# @hookform/devtools 
+Package provides a browser developer tool extension specifically designed for debugging React Hook Form forms. It offers several features to aid in form development and debugging:
+
+Visualizing Form State: You can inspect the current state of your form, including values, errors, touched state (whether a field has been interacted with by the user), and validity in a dedicated panel within your browser's developer tools.
+Monitoring Form Events: You can view a log of form events like onChange, onSubmit, and onBlur along with their corresponding data, helping you understand how your forms are behaving.
+Inspecting Custom Hooks: If you're using custom hooks with React Hook Form, the devtools can help you visualize their state and data flow, making it easier to identify any issues.
+Benefits of using @hookform/devtools:
+
+Faster Debugging: By providing a clear view of your form's state and events, the devtools can significantly speed up the debugging process when you encounter issues with your forms.
+Improved Form Development: The devtools can help you understand how your forms are working internally, allowing you to build more robust and efficient forms.
+Simplified Testing: By observing form behavior and interactions within the devtools, you can more effectively test the functionality of your forms.
+
 # In summary:
 Styling with Emotion
 User interface components with Material-UI
