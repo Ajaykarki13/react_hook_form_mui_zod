@@ -7,4 +7,7 @@ export const schema = z.object({
     .string()
     .min(1, {message:'email is required'})
     .refine((text)=> patterns.email.test(text), {message:'Email invalid'}),
+
 })
+
+export type Schema = z.infer<typeof schema>
