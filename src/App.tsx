@@ -1,8 +1,8 @@
-import { Users } from "./users/components/Users"
+import { Userprovider } from "./components/UserProvider"
 
 function App() {
 
-  return <Users/>
+  return <Userprovider/>
 }
 
 export default App
